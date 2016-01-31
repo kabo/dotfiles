@@ -4,7 +4,6 @@
 ```sh
 cd ~
 git clone https://github.com/kabo/dotfiles.git
-git clone
 git submodule init
 git submodule update
 ```
