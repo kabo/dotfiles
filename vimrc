@@ -150,6 +150,12 @@ let NERDTreeIgnore = ['\.pyc$']
 map <C-n> :NERDTreeToggle<CR>
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => javascript-libraries-syntax
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+let g:used_javascript_libs = 'jquery,angularjs,angularui,angularuirouter'
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => colemak
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
