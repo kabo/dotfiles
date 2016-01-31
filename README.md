@@ -12,6 +12,7 @@ git submodule update
 ```sh
 cd ~/dotfiles/
 git pull
+git submodule init
 git submodule update --remote
 ```
 
