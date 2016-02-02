@@ -4,6 +4,8 @@ runtime bundle/vim-pathogen/autoload/pathogen.vim
 " => General
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
+let g:pathogen_disabled = ['YouCompleteMe']
+
 " Infect with pathogen
 call pathogen#infect()
 call pathogen#helptags()
@@ -14,12 +16,18 @@ set nocompatible
 " Sets how many lines of history VIM has to remember
 set history=700
 
+" Disable mouse
+set mouse=""
+
 " Enable filetype plugins
 filetype plugin on
 filetype indent on
 
 " Set to auto read when a file is changed from the outside
 set autoread
+
+" allow hidden buffers
+set hidden
 
 " With a map leader it's possible to do extra key combinations
 " like <leader>w saves the current file
