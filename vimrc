@@ -50,7 +50,7 @@ endif
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 " Enable 256 colors in terminal
-"set t_Co=256
+set t_Co=256
 set background=dark
 let g:solarized_termtrans=1
 "let g:solarize_termcolors=16
