@@ -1,0 +1,6 @@
+Xft*antialias:      true
+Xft*autohint:       true
+!URxvt.font:        xft:Inconsolata Medium:size=12
+URxvt.font:         xft:DejaVu Sans Mono:size=12
+URxvt*letterSpace:  -1
+
