@@ -4,7 +4,9 @@ runtime bundle/vim-pathogen/autoload/pathogen.vim
 " => General
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-let g:pathogen_disabled = ['YouCompleteMe']
+if has("mac") || has("macunix")
+  let g:pathogen_disabled = ['YouCompleteMe']
+endif
 
 " Infect with pathogen
 call pathogen#infect()
@@ -39,14 +41,22 @@ nmap <leader>w :w!<cr>
 
 " Use system clipboard
 set clipboard^=unnamedplus
+if has("mac") || has("macunix")
+  set clipboard=unnamed
+endif
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => VIM user interface
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 " Enable 256 colors in terminal
-set t_Co=256
-let g:solarize_termcolors=256
+"set t_Co=256
+set background=dark
+let g:solarized_termtrans=1
+"let g:solarize_termcolors=16
+"let g:solarized_visibility = "high"
+"let g:solarized_contrast = "high"
+colorscheme solarized
 
 " Set 7 lines to the cursor - when moving vertically using j/k
 set so=7
