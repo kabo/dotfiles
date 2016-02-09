@@ -58,6 +58,9 @@ let g:solarized_termtrans=1
 "let g:solarized_contrast = "high"
 colorscheme solarized
 
+let g:airline_powerline_fonts = 1
+set laststatus=2
+
 " Set 7 lines to the cursor - when moving vertically using j/k
 set so=7
 
