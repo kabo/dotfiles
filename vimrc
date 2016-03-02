@@ -160,6 +160,13 @@ vnoremap <C-k> :m '<-2<CR>gv=gv
 "   vmap <D-k> <M-k>
 " endif
 
+" Tidy JSON
+map <Leader>jt <Esc>:%!python -m json.tool<CR>
+
+" Tidy XML
+map <Leader>xt <Esc>:%!tidy -q -i --show-errors 0 -xml<CR>
+":command Txml :%!tidy -q -i --show-errors 0 -xml
+
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => CTRL-P
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
