@@ -96,6 +96,9 @@ set magic
 " Show macthing brackets when text indicator is over them
 set showmatch
 
+" To view hidden chars: :set list, to disable: :set nolist
+set listchars=eol:¬,tab:>·,trail:~,extends:>,precedes:<,space:␣
+
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Colors and Fonts
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
