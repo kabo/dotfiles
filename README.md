@@ -4,8 +4,8 @@
 ```sh
 cd ~
 git clone https://github.com/kabo/dotfiles.git
-git submodule init
-git submodule update
+cd dotfiles
+git submodule update --init --recursive
 ```
 
 ## To update
