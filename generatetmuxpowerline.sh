@@ -23,6 +23,6 @@ cp ./mytheme.sh ./tmux-powerline/themes/mytheme.sh
 cd ./tmux-powerline || exit
 ./generate_rc.sh
 cd ~ || exit
-mv .tmux-powerline{.default,}
+mv .tmux-powerlinerc{.default,}
 sed 's/TMUX_POWERLINE_THEME="[^"]*"/TMUX_POWERLINE_THEME="mytheme"/' .tmux-powerlinerc -i
 
