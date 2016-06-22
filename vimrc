@@ -114,6 +114,7 @@ syntax on
 set nobackup
 set nowb
 set noswapfile
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip,node_modules,.git
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Text, tab and indent related
