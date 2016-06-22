@@ -1,3 +1,6 @@
+scriptencoding utf-8
+set encoding=utf-8
+
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -97,7 +100,8 @@ set magic
 set showmatch
 
 " To view hidden chars: :set list, to disable: :set nolist
-set listchars=eol:¬,tab:>·,trail:~,extends:>,precedes:<,space:␣
+set listchars=eol:¬,tab:>·,trail:~,extends:>,precedes:<
+" this is only for 7.4.710 and above: ,space:␣
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Colors and Fonts
